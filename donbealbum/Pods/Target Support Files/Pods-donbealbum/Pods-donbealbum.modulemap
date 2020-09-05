@@ -1,0 +1,6 @@
+framework module Pods_donbealbum {
+  umbrella header "Pods-donbealbum-umbrella.h"
+
+  export *
+  module * { export * }
+}

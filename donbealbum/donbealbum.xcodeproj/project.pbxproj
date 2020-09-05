@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AC7EB91FC61FE26BD439B86 /* Pods_donbealbum_donbealbumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E99458DFBEA3F18355678F /* Pods_donbealbum_donbealbumUITests.framework */; };
 		36BB913624FCA1C2007C9584 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB913524FCA1C2007C9584 /* AppDelegate.m */; };
 		36BB913924FCA1C2007C9584 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB913824FCA1C2007C9584 /* SceneDelegate.m */; };
 		36BB913C24FCA1C2007C9584 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB913B24FCA1C2007C9584 /* ViewController.m */; };
@@ -16,6 +17,10 @@
 		36BB914724FCA1C5007C9584 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB914624FCA1C5007C9584 /* main.m */; };
 		36BB915124FCA1C5007C9584 /* donbealbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB915024FCA1C5007C9584 /* donbealbumTests.m */; };
 		36BB915C24FCA1C5007C9584 /* donbealbumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB915B24FCA1C5007C9584 /* donbealbumUITests.m */; };
+		36DC0CBA24FE6BCA00F0B9A8 /* PhotoCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DC0CB924FE6BCA00F0B9A8 /* PhotoCCell.m */; };
+		36DC0CBE24FF4FBE00F0B9A8 /* DDPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DC0CBD24FF4FBE00F0B9A8 /* DDPhotos.m */; };
+		8003F94A39946E98A39C931C /* Pods_donbealbumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AA6EF9BCBEBAD5F5DAFC19 /* Pods_donbealbumTests.framework */; };
+		CEACC0C373BB1BD182FFCC2D /* Pods_donbealbum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC2B1B11B507C3C60164D87 /* Pods_donbealbum.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01C0CBBB818291E491F81045 /* Pods-donbealbum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-donbealbum.debug.xcconfig"; path = "Target Support Files/Pods-donbealbum/Pods-donbealbum.debug.xcconfig"; sourceTree = "<group>"; };
+		1AC2B1B11B507C3C60164D87 /* Pods_donbealbum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_donbealbum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BB913124FCA1C2007C9584 /* donbealbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = donbealbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BB913424FCA1C2007C9584 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		36BB913524FCA1C2007C9584 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +61,18 @@
 		36BB915724FCA1C5007C9584 /* donbealbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = donbealbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BB915B24FCA1C5007C9584 /* donbealbumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = donbealbumUITests.m; sourceTree = "<group>"; };
 		36BB915D24FCA1C5007C9584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DC0CB824FE6BCA00F0B9A8 /* PhotoCCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCCell.h; sourceTree = "<group>"; };
+		36DC0CB924FE6BCA00F0B9A8 /* PhotoCCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCCell.m; sourceTree = "<group>"; };
+		36DC0CBB24FF4CF700F0B9A8 /* GlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalMacro.h; sourceTree = "<group>"; };
+		36DC0CBC24FF4FBE00F0B9A8 /* DDPhotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDPhotos.h; sourceTree = "<group>"; };
+		36DC0CBD24FF4FBE00F0B9A8 /* DDPhotos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDPhotos.m; sourceTree = "<group>"; };
+		3EF0A74CB5A281F8394C86D5 /* Pods-donbealbumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-donbealbumTests.debug.xcconfig"; path = "Target Support Files/Pods-donbealbumTests/Pods-donbealbumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E17F01560DCD64D762D3FDA /* Pods-donbealbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-donbealbum.release.xcconfig"; path = "Target Support Files/Pods-donbealbum/Pods-donbealbum.release.xcconfig"; sourceTree = "<group>"; };
+		8854FD12304E0735C6A92852 /* Pods-donbealbum-donbealbumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-donbealbum-donbealbumUITests.release.xcconfig"; path = "Target Support Files/Pods-donbealbum-donbealbumUITests/Pods-donbealbum-donbealbumUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B88000A7A1D2FFCCFB591594 /* Pods-donbealbum-donbealbumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-donbealbum-donbealbumUITests.debug.xcconfig"; path = "Target Support Files/Pods-donbealbum-donbealbumUITests/Pods-donbealbum-donbealbumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA164C52E8C1807CC84FA7B3 /* Pods-donbealbumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-donbealbumTests.release.xcconfig"; path = "Target Support Files/Pods-donbealbumTests/Pods-donbealbumTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1E99458DFBEA3F18355678F /* Pods_donbealbum_donbealbumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_donbealbum_donbealbumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AA6EF9BCBEBAD5F5DAFC19 /* Pods_donbealbumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_donbealbumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEACC0C373BB1BD182FFCC2D /* Pods_donbealbum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8003F94A39946E98A39C931C /* Pods_donbealbumTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +96,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC7EB91FC61FE26BD439B86 /* Pods_donbealbum_donbealbumUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19539D38F43F79FC26674F90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01C0CBBB818291E491F81045 /* Pods-donbealbum.debug.xcconfig */,
+				4E17F01560DCD64D762D3FDA /* Pods-donbealbum.release.xcconfig */,
+				B88000A7A1D2FFCCFB591594 /* Pods-donbealbum-donbealbumUITests.debug.xcconfig */,
+				8854FD12304E0735C6A92852 /* Pods-donbealbum-donbealbumUITests.release.xcconfig */,
+				3EF0A74CB5A281F8394C86D5 /* Pods-donbealbumTests.debug.xcconfig */,
+				CA164C52E8C1807CC84FA7B3 /* Pods-donbealbumTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		36BB912824FCA1C2007C9584 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +124,8 @@
 				36BB914F24FCA1C5007C9584 /* donbealbumTests */,
 				36BB915A24FCA1C5007C9584 /* donbealbumUITests */,
 				36BB913224FCA1C2007C9584 /* Products */,
+				19539D38F43F79FC26674F90 /* Pods */,
+				4A66A8240522C20E20DE0010 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +148,11 @@
 				36BB913824FCA1C2007C9584 /* SceneDelegate.m */,
 				36BB913A24FCA1C2007C9584 /* ViewController.h */,
 				36BB913B24FCA1C2007C9584 /* ViewController.m */,
+				36DC0CB824FE6BCA00F0B9A8 /* PhotoCCell.h */,
+				36DC0CB924FE6BCA00F0B9A8 /* PhotoCCell.m */,
+				36DC0CBB24FF4CF700F0B9A8 /* GlobalMacro.h */,
+				36DC0CBC24FF4FBE00F0B9A8 /* DDPhotos.h */,
+				36DC0CBD24FF4FBE00F0B9A8 /* DDPhotos.m */,
 				36BB913D24FCA1C2007C9584 /* Main.storyboard */,
 				36BB914024FCA1C5007C9584 /* Assets.xcassets */,
 				36BB914224FCA1C5007C9584 /* LaunchScreen.storyboard */,
@@ -137,6 +180,16 @@
 			path = donbealbumUITests;
 			sourceTree = "<group>";
 		};
+		4A66A8240522C20E20DE0010 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AC2B1B11B507C3C60164D87 /* Pods_donbealbum.framework */,
+				E1E99458DFBEA3F18355678F /* Pods_donbealbum_donbealbumUITests.framework */,
+				E9AA6EF9BCBEBAD5F5DAFC19 /* Pods_donbealbumTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36BB916024FCA1C5007C9584 /* Build configuration list for PBXNativeTarget "donbealbum" */;
 			buildPhases = (
+				22DB7BC5EA0C27BB54136548 /* [CP] Check Pods Manifest.lock */,
 				36BB912D24FCA1C2007C9584 /* Sources */,
 				36BB912E24FCA1C2007C9584 /* Frameworks */,
 				36BB912F24FCA1C2007C9584 /* Resources */,
+				57C8D9D0678CD2BFFAD9EEDD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36BB916324FCA1C5007C9584 /* Build configuration list for PBXNativeTarget "donbealbumTests" */;
 			buildPhases = (
+				3BC105AAF0E3573788BFD7E5 /* [CP] Check Pods Manifest.lock */,
 				36BB914824FCA1C5007C9584 /* Sources */,
 				36BB914924FCA1C5007C9584 /* Frameworks */,
 				36BB914A24FCA1C5007C9584 /* Resources */,
@@ -179,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36BB916624FCA1C5007C9584 /* Build configuration list for PBXNativeTarget "donbealbumUITests" */;
 			buildPhases = (
+				283F073A825BDDD906BEE05B /* [CP] Check Pods Manifest.lock */,
 				36BB915324FCA1C5007C9584 /* Sources */,
 				36BB915424FCA1C5007C9584 /* Frameworks */,
 				36BB915524FCA1C5007C9584 /* Resources */,
+				54FEE06EE2828DCD84A3D9B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +320,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22DB7BC5EA0C27BB54136548 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-donbealbum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		283F073A825BDDD906BEE05B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-donbealbum-donbealbumUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BC105AAF0E3573788BFD7E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-donbealbumTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54FEE06EE2828DCD84A3D9B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-donbealbum-donbealbumUITests/Pods-donbealbum-donbealbumUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-donbealbum-donbealbumUITests/Pods-donbealbum-donbealbumUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-donbealbum-donbealbumUITests/Pods-donbealbum-donbealbumUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57C8D9D0678CD2BFFAD9EEDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-donbealbum/Pods-donbealbum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-donbealbum/Pods-donbealbum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-donbealbum/Pods-donbealbum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36BB912D24FCA1C2007C9584 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,6 +431,8 @@
 				36BB913C24FCA1C2007C9584 /* ViewController.m in Sources */,
 				36BB913624FCA1C2007C9584 /* AppDelegate.m in Sources */,
 				36BB914724FCA1C5007C9584 /* main.m in Sources */,
+				36DC0CBA24FE6BCA00F0B9A8 /* PhotoCCell.m in Sources */,
+				36DC0CBE24FF4FBE00F0B9A8 /* DDPhotos.m in Sources */,
 				36BB913924FCA1C2007C9584 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +600,7 @@
 		};
 		36BB916124FCA1C5007C9584 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C0CBBB818291E491F81045 /* Pods-donbealbum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +618,7 @@
 		};
 		36BB916224FCA1C5007C9584 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E17F01560DCD64D762D3FDA /* Pods-donbealbum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +636,7 @@
 		};
 		36BB916424FCA1C5007C9584 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF0A74CB5A281F8394C86D5 /* Pods-donbealbumTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +657,7 @@
 		};
 		36BB916524FCA1C5007C9584 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA164C52E8C1807CC84FA7B3 /* Pods-donbealbumTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +678,7 @@
 		};
 		36BB916724FCA1C5007C9584 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88000A7A1D2FFCCFB591594 /* Pods-donbealbum-donbealbumUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DLHBRT3U4Y;
@@ -529,6 +697,7 @@
 		};
 		36BB916824FCA1C5007C9584 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8854FD12304E0735C6A92852 /* Pods-donbealbum-donbealbumUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DLHBRT3U4Y;

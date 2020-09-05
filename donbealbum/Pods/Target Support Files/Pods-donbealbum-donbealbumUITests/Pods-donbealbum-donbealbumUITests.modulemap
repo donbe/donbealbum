@@ -1,0 +1,6 @@
+framework module Pods_donbealbum_donbealbumUITests {
+  umbrella header "Pods-donbealbum-donbealbumUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
