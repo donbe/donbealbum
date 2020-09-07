@@ -1,22 +1,44 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.10.8)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
+  - AFNetworking (~> 4.0)
+  - AliyunOSSiOS
   - FMDB (~> 2.7.5)
   - Masonry (~> 1.1.0)
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
+    - AliyunOSSiOS
     - FMDB
     - Masonry
 
 SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AliyunOSSiOS: 8db92936545593b9e5c66d680ef2ac0738946651
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: fff08887d9d0d0ece95ffc4320dbbf4455833a82
+PODFILE CHECKSUM: 7ad81f93db7377ce1d41d64ee326c5d31332045a
 
 COCOAPODS: 1.9.3

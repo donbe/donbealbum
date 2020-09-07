@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2AC7EB91FC61FE26BD439B86 /* Pods_donbealbum_donbealbumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E99458DFBEA3F18355678F /* Pods_donbealbum_donbealbumUITests.framework */; };
+		361DEB7F2503C18000593C73 /* DDUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 361DEB7E2503C18000593C73 /* DDUploader.m */; };
 		36BB913624FCA1C2007C9584 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB913524FCA1C2007C9584 /* AppDelegate.m */; };
 		36BB913924FCA1C2007C9584 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB913824FCA1C2007C9584 /* SceneDelegate.m */; };
 		36BB913C24FCA1C2007C9584 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB913B24FCA1C2007C9584 /* ViewController.m */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		01C0CBBB818291E491F81045 /* Pods-donbealbum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-donbealbum.debug.xcconfig"; path = "Target Support Files/Pods-donbealbum/Pods-donbealbum.debug.xcconfig"; sourceTree = "<group>"; };
 		1AC2B1B11B507C3C60164D87 /* Pods_donbealbum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_donbealbum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		361DEB7D2503C18000593C73 /* DDUploader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDUploader.h; sourceTree = "<group>"; };
+		361DEB7E2503C18000593C73 /* DDUploader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDUploader.m; sourceTree = "<group>"; };
 		36BB913124FCA1C2007C9584 /* donbealbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = donbealbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BB913424FCA1C2007C9584 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		36BB913524FCA1C2007C9584 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,7 +116,6 @@
 				3EF0A74CB5A281F8394C86D5 /* Pods-donbealbumTests.debug.xcconfig */,
 				CA164C52E8C1807CC84FA7B3 /* Pods-donbealbumTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,6 +155,8 @@
 				36DC0CBB24FF4CF700F0B9A8 /* GlobalMacro.h */,
 				36DC0CBC24FF4FBE00F0B9A8 /* DDPhotos.h */,
 				36DC0CBD24FF4FBE00F0B9A8 /* DDPhotos.m */,
+				361DEB7D2503C18000593C73 /* DDUploader.h */,
+				361DEB7E2503C18000593C73 /* DDUploader.m */,
 				36BB913D24FCA1C2007C9584 /* Main.storyboard */,
 				36BB914024FCA1C5007C9584 /* Assets.xcassets */,
 				36BB914224FCA1C5007C9584 /* LaunchScreen.storyboard */,
@@ -432,6 +436,7 @@
 				36BB913624FCA1C2007C9584 /* AppDelegate.m in Sources */,
 				36BB914724FCA1C5007C9584 /* main.m in Sources */,
 				36DC0CBA24FE6BCA00F0B9A8 /* PhotoCCell.m in Sources */,
+				361DEB7F2503C18000593C73 /* DDUploader.m in Sources */,
 				36DC0CBE24FF4FBE00F0B9A8 /* DDPhotos.m in Sources */,
 				36BB913924FCA1C2007C9584 /* SceneDelegate.m in Sources */,
 			);

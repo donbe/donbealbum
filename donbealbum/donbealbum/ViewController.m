@@ -50,6 +50,7 @@
     return [self.photos count];
 }
 
+
 #pragma mark - get/set
 -(UICollectionViewFlowLayout *)layout{
     if (_layout == nil) {
